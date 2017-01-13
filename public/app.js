@@ -9,6 +9,11 @@ $stateProvider
   templateUrl: '.public/templates/home.html',
   controller: 'homeCtrl'
 })
+.state('friend', {
+  url:'/friend',
+  templateUrl: '.public/templates/friend.html',
+  controller: 'homtCtrl'
+})
 
 
 
